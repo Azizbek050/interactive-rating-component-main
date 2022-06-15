@@ -1,0 +1,153 @@
+.card{
+  width: calc(280px + (350 - 280) * ((100vw - 320px) / (1440 - 320)));
+  background-color:  hsl(213, 19%, 18%);
+  border-radius: calc(20px + (30 - 20) * ((100vw - 320px) / (1440 - 320)));
+padding:3.2rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+
+}
+.card1{
+  width: calc(280px + (350 - 280) * ((100vw - 320px) / (1440 - 320)));
+  background-color:  hsl(213, 19%, 18%);
+  border-radius: calc(20px + (30 - 20) * ((100vw - 320px) / (1440 - 320)));
+padding:3.2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+position: relative;
+
+}
+
+a{
+ width:40px;
+ height:40px;
+  /* padding: 10px; */
+
+  border-radius: 50px;
+  background-color:  hsl(212, 21%, 24%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+h1{
+  font-size: calc(15px + (22 - 15) * ((100vw - 320px) / (1440 - 320)));
+  margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
+}
+
+.p_dow{
+  margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
+  font-size: 12px;
+  font-size: calc(10px + (15 - 10) * ((100vw - 320px) / (1440 - 320)));
+  color: #6b7789;
+  line-height: calc(10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
+  text-align: start;
+}
+
+
+
+
+
+
+
+.win{
+  width: 71%;
+  width: calc(200px + (200 - 200) * ((100vw - 320px) / (1440 - 320)));
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(25, 97%, 53%);
+  background: #67708082 !important;
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin-top: 30px;
+
+}
+
+.win span{
+  font-size: 17px;
+  font-weight: bold;
+
+}
+h2{
+  margin-top: calc(15px + (30 - 15) * ((100vw - 320px) / (1440 - 320)));
+  margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1440 - 320)));
+}
+p{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.rating-icon {
+  background-color: #273039;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #d3d3d3;
+  border-radius: 50%;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rating-icon:hover {
+  background-color: #fb7413;
+  color: #fff;
+
+}
+
+.rating-selected {
+  /* background-color: #12c958; */
+  background-color:  hsl(212, 29%, 55%);
+
+color: #ffffff;
+
+}
+
+.submit {
+  background-color: #fb7413;
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 10px;
+  border: none;
+  width: 100%;
+}
+.submit:hover{
+  background-color: #fdeee4 !important;
+color: #fb7413 !important;
+}
+
+.exit{
+  color: #fb7413;
+  border: none;
+  background: none;
+  font-size: 4rem;
+  position: absolute;
+  top: 7px;
+  right: 30px;
+}
+
+
+
